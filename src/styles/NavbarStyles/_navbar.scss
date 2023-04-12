@@ -13,7 +13,7 @@
   left: 0;
   right: 0;
   background-color: transparent;
-  z-index: 999;
+  z-index: 99999;
   margin: 0 auto;
 
   &__img {
@@ -55,42 +55,42 @@
     font-family: $text-font;
     font-weight: 500;
     align-items: center;
-  }
 
-  @media (max-width: 1000px) {
-    display: none;
-  }
-
-  &__sign-in {
-    color: $text-black;
-    cursor: pointer;
-    transition: all 0.3s;
-
-    &:hover {
-      color: $text-orange;
+    @media (max-width: 1000px) {
+      display: none;
     }
-  }
 
-  &__register {
-    background-color: $text-orange;
-    color: white;
-    padding: 1.5rem 3rem;
-    border-radius: 3px;
-    box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
-    transition: all 0.3s;
+    &__sign-in {
+      color: $text-black;
+      cursor: pointer;
+      transition: all 0.3s;
 
-    &:hover {
-      box-shadow: 0 10px 15px 0 rgb(255 83 48 / 50%);
-      background-color: #fa4226;
+      &:hover {
+        color: $text-orange;
+      }
     }
-  }
 
-  a {
-    text-decoration: none;
+    &__register {
+      background-color: $text-orange;
+      color: white;
+      padding: 1.5rem 3rem;
+      border-radius: 3px;
+      box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+      transition: all 0.3s;
+
+      &:hover {
+        box-shadow: 0 10px 15px 0 rgb(255 83 48 / 50%);
+        background-color: #fa4226;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
   }
 }
 
-// mobile nav
+//  mobile nav
 
 .mobile-hamb {
   font-size: 2.8rem;
@@ -116,10 +116,10 @@
   top: 0;
   left: -100%;
   background-color: $bg-white;
-  z-index: 999;
+  z-index: 999999;
   justify-content: center;
   align-items: center;
-  transition: all 0.5 ease-in-out;
+  transition: all 0.5s ease-in-out;
 
   &__close {
     font-size: 3rem;
@@ -140,7 +140,7 @@
     list-style: none;
     font-size: 2.3rem;
     gap: 3rem;
-    text-align: none;
+    text-align: center;
 
     li {
       a {
