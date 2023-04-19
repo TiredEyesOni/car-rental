@@ -14,5 +14,6 @@ Live Demo: <a href="https://car-rental-sandy.vercel.app/">Live Demo</a>
 
 # Screenshots
 
-![image](https://user-images.githubusercontent.com/49983529/232038329-51efe275-899c-41cf-8e90-dc82e951660a.png)
+![image](https://user-images.githubusercontent.com/49983529/233051916-849892f0-e170-481d-b87a-e57de804b722.png)
+
 
