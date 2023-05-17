@@ -6,7 +6,7 @@
 
 This is a car rental website that allows users to rent cars for personal or business use. 
 
-Live Demo: <a href="https://car-rental-sandy.vercel.app/">Live Demo</a>
+<a href="https://car-rental-sandy.vercel.app/">Live Demo</a>
 
 ## Built with:
 - React JS
